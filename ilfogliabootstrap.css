@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    height: 100vh;
+  }
+  .imagendefondo {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+  }
+  .banner{
+display: flex;
+justify-content: center;
+margin-top: 60px;}
+
+.banner-image {
+  border: 10px solid rgb(100, 100, 100);
+  width: 60%;
+}
+  
+  .navbar-brand{
+    font-family: 'Hurricane', cursive;
+    font-size: 50px;
+  }
+
+  .ubicacionimagen{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    
+
+  }
+  .formatohistoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    color: white;
+  }
+  .fotohistoria {
+    max-width: 30rem;
+    max-height: 30rem;
+    margin: 2rem;}
+
+    .maxwidth {
+      width: 50%;
+    }
+    .textohistoria{
+    font-size: 16px;}
+
+    .formatotabla{
+      color: white;
+    }
